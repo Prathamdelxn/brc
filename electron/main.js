@@ -38,9 +38,9 @@ function createWindow() {
 
   // Load content
   if (isDev) {
-    mainWindow.loadURL("http://localhost:3000");
+    mainWindow.loadURL("brc-puce.vercel.app");
   } else {
-    mainWindow.loadURL("http://localhost:3000");
+    mainWindow.loadURL("brc-puce.vercel.app");
   }
 
   // 3. When Main Window is ready to show
